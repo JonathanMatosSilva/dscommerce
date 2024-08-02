@@ -87,7 +87,7 @@ public class Product {
         return items;
     }
 
-    public List<Order> orders getOrders() {
+    public List<Order> getOrders() {
         return items.stream().map(x -> x.getOrder()).toList();
     }
 }
